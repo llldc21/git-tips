@@ -11,7 +11,7 @@ P.S: All these commands are tested on `git version 2.7.4 (Apple Git-66)`.
 
 <!-- @doxie.inject start toc -->
 <!-- Don’t remove or change the comment above – that can break automatic updates. -->
-* [Git todo dia em vinte comandos os menos](#git-todo-dia-em-vinte-comandos-os-menos)
+* [Git todo dia em vinte comandos ou menos](#git-todo-dia-em-vinte-comandos-ou-menos)
 * [Show helpful guides that come with Git](#show-helpful-guides-that-come-with-git)
 * [Search change by content](#search-change-by-content)
 * [Show changes over time for specific file](#show-changes-over-time-for-specific-file)
@@ -185,7 +185,7 @@ P.S: All these commands are tested on `git version 2.7.4 (Apple Git-66)`.
 
 <!-- @doxie.inject start -->
 <!-- Don’t remove or change the comment above – that can break automatic updates. -->
-## Git todo dia em vinte comandos os menos
+## Git todo dia em vinte comandos ou menos
 ```sh
 git help everyday
 ```
