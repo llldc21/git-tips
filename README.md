@@ -11,7 +11,7 @@ P.S: All these commands are tested on `git version 2.7.4 (Apple Git-66)`.
 
 <!-- @doxie.inject start toc -->
 <!-- Don’t remove or change the comment above – that can break automatic updates. -->
-* [Everyday Git in twenty commands or so](#everyday-git-in-twenty-commands-or-so)
+* [Git todo dia em vinte comandos os menos](#git-todo-dia-em-vinte-comandos-os-menos)
 * [Show helpful guides that come with Git](#show-helpful-guides-that-come-with-git)
 * [Search change by content](#search-change-by-content)
 * [Show changes over time for specific file](#show-changes-over-time-for-specific-file)
@@ -35,7 +35,7 @@ P.S: All these commands are tested on `git version 2.7.4 (Apple Git-66)`.
 * [Create local tag](#create-local-tag)
 * [Delete local tag](#delete-local-tag)
 * [Delete remote tag](#delete-remote-tag)
-* [Undo local changes with the last content in head](#undo-local-changes-with-the-last-content-in-head)
+* [Undo local changes with the content in index(staging)](#undo-local-changes-with-the-content-in-indexstaging)
 * [Revert: Undo a commit by creating a new commit](#revert-undo-a-commit-by-creating-a-new-commit)
 * [Reset: Discard commits, advised for private branch](#reset-discard-commits-advised-for-private-branch)
 * [Reword the previous commit message](#reword-the-previous-commit-message)
@@ -185,7 +185,7 @@ P.S: All these commands are tested on `git version 2.7.4 (Apple Git-66)`.
 
 <!-- @doxie.inject start -->
 <!-- Don’t remove or change the comment above – that can break automatic updates. -->
-## Everyday Git in twenty commands or so
+## Git todo dia em vinte comandos os menos
 ```sh
 git help everyday
 ```
@@ -998,6 +998,7 @@ __Alternatives:__
 ```sh
 git branch <branch-name> && git checkout <branch-name>
 ```
+
 
 ```sh
 git switch -c <branch-name>
